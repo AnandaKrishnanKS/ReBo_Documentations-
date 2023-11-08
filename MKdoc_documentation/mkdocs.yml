@@ -1,0 +1,65 @@
+site_name: BMAPS
+theme:
+  name: material
+nav:
+  - Open To Buy:
+      - Introduction:
+          - About: OpenToBuy/otbintro.md
+          - UI image of OTB: OpenToBuy/otbimage.md
+      - Frontend:
+          - Components:
+              - Page: OpenToBuy/page.md
+              - Otb Controller: OpenToBuy/otbcontroller.md
+              - Websocket: OpenToBuy/websocket.md
+              - Otb Tab View: OpenToBuy/otbTabView.md
+              - Otb Side Drawer: OpenToBuy/otbSideDrawer.md
+              - Otb Form: OpenToBuy/otbForm.md
+              - Hierarchy Filter: OpenToBuy/otbhierachyfilter.md
+              - Main Filter: OpenToBuy/otbMianFilter.md
+              - Otb Top Drawer: OpenToBuy/otbTopDrawer.md
+              - Reducer:
+                  - Message Body Reducer: OpenToBuy/messageBodyReducer.md
+              - OTB Table Folder:
+                  - Otb Data Table: OpenToBuy/otbDataTable.md
+                  - Otb Table Pagination: OpenToBuy/otbTablePagination.md
+                  - Secondary Filter: OpenToBuy/secondaryFilter.md
+                  - Normal Cell: OpenToBuy/normalCell.md
+                  - Mandatory Columns: OpenToBuy/mandatoryColumns.md
+                  - Non Default Columns: OpenToBuy/otbNonDefaultColumns.md
+                  - Expandable Component: OpenToBuy/otbExpandableComponent.md
+                  - Editable Cell: OpenToBuy/otbEditablecell.md
+                  - Collapse Component: OpenToBuy/otbColapseComponent.md
+                  - Data table view options: OpenToBuy/otbDataTblViewOp.md
+                  - Data table toolbar: OpenToBuy/otbDataTableToolbar.md
+                  - Data table faceted filter: OpenToBuy/otbDataTableFacetedFilt.md
+
+  - Budget Plan:
+      - Introduction:
+          - About: BudgetPlan/bpintro.md
+          - UI image of OTB: BudgetPlan/bpimage.md
+      - Frontend:
+          - Components:
+              - Page: BudgetPlan/page.md
+              - Bp Controller: BudgetPlan/bpcontroller.md
+              - Websocket: BudgetPlan/websocket.md
+              - Bp Tab View: BudgetPlan/bpTabView.md
+              - Bp Side Drawer: BudgetPlan/bpSideDrawer.md
+              - Bp Form: BudgetPlan/bpForm.md
+              - Hierarchy Filter: BudgetPlan/bphierachyfilter.md
+              - Main Filter: BudgetPlan/bpMianFilter.md
+              - Bp Top Drawer: BudgetPlan/bpTopDrawer.md
+              - Reducer:
+                  - Message Body Reducer: BudgetPlan/messageBodyReducer.md
+              - BP Table Folder:
+                  - Bp Data Table: BudgetPlan/bpDataTable.md
+                  - Bp Table Pagination: BudgetPlan/bpTablePagination.md
+                  - Secondary Filter: BudgetPlan/secondaryFilter.md
+                  - Normal Cell: BudgetPlan/normalCell.md
+                  - Mandatory Columns: BudgetPlan/mandatoryColumns.md
+                  - Non Default Columns: BudgetPlan/bpNonDefaultColumns.md
+                  - Expandable Component: BudgetPlan/bpExpandableComponent.md
+                  - Editable Cell: BudgetPlan/bpEditablecell.md
+                  - Collapse Component: BudgetPlan/bpColapseComponent.md
+                  - Data table view options: BudgetPlan/bpDataTblViewOp.md
+                  - Data table toolbar: BudgetPlan/bpDataTableToolbar.md
+                  - Data table faceted filter: BudgetPlan/bpDataTableFacetedFilt.md

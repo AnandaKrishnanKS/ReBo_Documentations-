@@ -1,0 +1,47 @@
+site_name: BMAPS Docs
+theme:
+  name: material
+  locale: en
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: indego
+    accent: amber
+    toggle:
+      icon: material/lightbulb
+      name: Switch to dark mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: indego
+    accent: amber
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to light mode
+  features:
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+  - navigation.indexes
+  - content.tooltips
+  - navigation.path
+  - content.code.annotate
+  - content.code.copy
+  - content.code.select
+  icon:
+    repo: fontawesome/brands/github-alt
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+markdown_extensions:
+  toc:
+    permalink: true
+  markdown.extensions.codehilite:
+    guess_lang: false
+  admonition: null
+  codehilite: null
+  extra: null
+  pymdownx.tabbed:
+    alternate_style: true
+  attr_list: null
+  md_in_html: null
